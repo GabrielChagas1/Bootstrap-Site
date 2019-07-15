@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+/* Topo */
+.bg-topo{
+    background: #68627a;
+    position: fixed;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05), 0 4px 8px 0 rgba(0,0,0,.05)
+}
+
+#menu ul{
+    margin-left: auto !important;
+}
+
+.btn-orcamento{
+    color: #000;
+    background-color: transparent;
+    background-image: none;
+    border-color: #000;
+}
+
+.btn-orcamento:hover{
+    color: #fff;
+    border-color: #fff;
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
