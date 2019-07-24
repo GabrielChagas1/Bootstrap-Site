@@ -137,6 +137,42 @@
     -webkit-transition: all .50s ease-in-out;
 }
 
+/* Footer */
+.bg-rodape1{
+    background-color: #312b45;
+}
+
+.bg-rodape1 ul li{
+    list-style: none;
+}
+
+.bg-card-rodape{
+    background: #ff3859;
+}
+
+.icon-banner-rodape{
+    color: #c42841;
+}
+
+.bg-rodape2{
+    background: #4c465f;
+}
+
+a.icone-social{
+    color: #b3aec2;
+    padding: 0px 5px;
+    font-size: 20px;
+}
+
+a.icone-social:hover{
+    color: #ff3859;
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+
+
+
 /* Configurações Gerais */
 .underline{
     content: '';
@@ -145,6 +181,14 @@
     display: block;
     margin-bottom: 8px;
     margin: 0 auto;
+}
+
+.underline-footer{
+    content: '';
+    border-top: 2px solid #ff3859;
+    width: 70px;
+    display: block;
+    margin-top: 5px;
 }
 
 .shadow-parceiros:hover, .tabela-preco:hover{

@@ -23,13 +23,13 @@
                 <div id="menu" class="collapse navbar-collapse">
                     <ul class="navbar-nav text-light">
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-light font-weight-bold">Serviços</a>
+                            <a href="#servicos" class="nav-link text-light font-weight-bold scroll">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-light font-weight-bold">Parceiros</a>
+                            <a href="#parceiros" class="nav-link text-light font-weight-bold scroll">Parceiros</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-light font-weight-bold">Cursos</a>
+                            <a href="#cursos" class="nav-link text-light font-weight-bold scroll">Cursos</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link text-light font-weight-bold">Contato</a>
@@ -62,7 +62,7 @@
         </div>
     </div>
     <!-- Seção de Serviços -->
-    <div class="container-fluid bg-servicos">
+    <div id="servicos" class="container-fluid bg-servicos">
         <div class="mt-2 py-4">
             <section class="container">
                 <header class="col-md-12">
@@ -86,7 +86,7 @@
         </div>
     </div>
     <!-- Sessão de Parceiros -->
-    <div class="container-fluid py-4 bg-parceiros">
+    <div id="parceiros" class="container-fluid py-4 bg-parceiros">
         <div class="py-2">
             <div class="container">
                 <header class="col-md-12">
@@ -153,7 +153,7 @@
         </div>
     </div>
     <!-- Seção Parallax -->
-    <div class="container-fluid bg-parallax">
+    <div id="cursos" class="container-fluid bg-parallax">
         <div class="py-4">
             <section class="container">
                 <header class="col-md-12">
@@ -304,19 +304,60 @@
                 <div class="col-md-4">
                     <h5 class="text-light align-middle"><i class="fas fa-info-circle fa-2x mr-2 text-light"></i> Cursos mais Visitados</h5>
                     <ul class="text-light">
-                        <li><a href="#" class="text-light">PHP Intermediário</a></li>
-                        <li><a href="#" class="text-light">Framework Boostrap 4</a></li>
-                        <li><a href="#" class="text-light">Jquery Básico</a></li>
-                        <li><a href="#" class="text-light">Framework Laravel 5.6</a></li>
-                        <li><a href="#" class="text-light">Desenvolvimento Android</a></li>
-                        <li><a href="#" class="text-light">Temas para WordPress</a></li>
+                        <li><a href="#" class="text-light"><i class="fa fa-angle-right"></i> PHP Intermediário</a></li>
+                        <li><a href="#" class="text-light"><i class="fa fa-angle-right"></i> Framework Boostrap 4</a></li>
+                        <li><a href="#" class="text-light"><i class="fa fa-angle-right"></i> Jquery Básico</a></li>
+                        <li><a href="#" class="text-light"><i class="fa fa-angle-right"></i> Framework Laravel 5.6</a></li>
+                        <li><a href="#" class="text-light"><i class="fa fa-angle-right"></i> Desenvolvimento Android</a></li>
+                        <li><a href="#" class="text-light"><i class="fa fa-angle-right"></i> Temas para WordPress</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="text-light">Sobre a PontoCOM <span class="underline-footer"></span></h6>
+                            <ul class="text-light">
+                                <li class="text-light">Quem Somos?</li>
+                                <li class="text-light">Parceiros</li>
+                                <li class="text-light">Portfólio</li>
+                                <li class="text-light">Contato</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-light">Ponto Curso <span class="underline-footer"></span></h6>
+                            <ul class="text-light">
+                                <li class="text-light">O que é ?</li>
+                                <li class="text-light">Cursos Disponíveis</li>
+                                <li class="text-light">Instrutores</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-light mb-3 bg-card-rodape">
+                        <div class="card-body">
+                            <h4 class="card-title"><i class="far fa-building mr-2 fa-2x icon-banner-rodape"></i> Traga sua Empresa</h4>
+                            <p class="card-text text-justify">Peça um orçamento sem compromisso e veja como podemos mudar a imagem da sua empresa na Web.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
+    <div class="container-fluid bg-rodape2">
+        <div class="container py-4">
+            <img src="img/logoRodape.png" alt="Logo Rodapé" class="img-fluid mx-auto d-block">
+            <div class="text-center pt-1">
+                <a href="#" class="icone-social" target="blank"><i class="fab fa-facebook-square fa-lg"></i></a>
+                <a href="#" class="icone-social" target="blank"><i class="fab fa-youtube fa-lg"></i></a>
+                <a href="#" class="icone-social" target="blank"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#" class="icone-social" target="blank"><i class="fab fa-twitter-square fa-lg"></i></a>
+                <a href="#" class="icone-social" target="blank"><i class="fab fa-linkedin  fa-lg"></i></a>
+
+
+            </div>
+        </div>
+    </div>
 
     <!-- JS -->
     <script src="js/jquery.min.js"></script>
