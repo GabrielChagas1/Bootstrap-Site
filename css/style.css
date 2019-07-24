@@ -35,6 +35,17 @@
     background: linear-gradient(131.26deg, #312b45 30%, #ff3859 100%);
 }
 
+
+/* Seção de Parceiros */
+.bg-parceiros{
+    background: f2f0f7;
+}
+
+.padding-parceiros{
+    padding: 2px !important;
+}
+
+
 /* Configurações Gerais */
 .underline{
     content: '';
@@ -43,4 +54,8 @@
     display: block;
     margin-bottom: 8px;
     margin: 0 auto;
+}
+
+.shadow-parceiros:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 }
